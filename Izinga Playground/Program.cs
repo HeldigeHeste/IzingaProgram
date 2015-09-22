@@ -10,12 +10,6 @@ namespace Izinga_Playground
     {
         static void Main(string[] args)
         {
-            //            string[,] spil = Spil();
-            //            string[,] remedier = Remedier();
-
-            //            Spil();
-            //            Remedier();
-
             string[,] spil = new string[20, 3]{
                 { "spil 1", "Beskrivelse", "Vippe" }, { "spil 2", "Beskrivelse", "Vippe" },
                 { "spil 3", "Beskrivelse", "Gynge" }, { "spil 4", "Beskrivelse", "Vippe" },
@@ -50,20 +44,28 @@ namespace Izinga_Playground
                         muligeSpil(spil,remedier);
                         break;
                     case 2:
-                        Console.WriteLine("Vælg sværhedsgrad");
+                        string grad = difficulty();
+                        Console.WriteLine("Du har valgt sværhedsgraden: " + grad);
                         break;
                     case 3:
                         Console.WriteLine("Vis statistik");
+                        Console.WriteLine("**********************************");
+                        Console.WriteLine("**** Denne Feature er ikke *******");
+                        Console.WriteLine("***** Understøttet endnu *********");
+                        Console.WriteLine("**********************************");
                         break;
                     case 4:
                         Console.WriteLine("Skift navn");
+                        Console.WriteLine("Her mangler en funktion for at oprette en bruger");
                         break;
                     case 9:
+                        Console.WriteLine();
+                        Console.WriteLine();
                         Console.WriteLine("Ændre remedier");
                         writeRemedier(remedier);
                         break;
                     default:
-                        Console.WriteLine("Du har vidst valgt forkert");
+                        Console.WriteLine("Du har valgt forkert");
                         break;
                 } // end switch
             } // end while loop
@@ -166,6 +168,43 @@ namespace Izinga_Playground
                     boolAdmin = false;
                 }
             }
+        }
+
+        static string difficulty()
+        {
+            bool boolDiff = true;
+            int inputDiff;
+            string svar = "";
+
+            while (boolDiff)
+            {
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine("Vælg sværhedsgrad");
+                Console.WriteLine("1. Let");
+                Console.WriteLine("2. Mellem");
+                Console.WriteLine("3. Svær");
+
+                inputDiff = Convert.ToInt32(Console.ReadLine());
+
+                if (inputDiff == 1)
+                {
+                    boolDiff = false;
+                    svar = "Let";
+                }
+                else if (inputDiff == 2)
+                {
+                    boolDiff = false;
+                    svar = "Mellem";
+                }
+                else if (inputDiff == 3)
+                {
+                    boolDiff = false;
+                    svar = "Svær";
+                }
+            }
+            return svar;
+
         }
 
 
