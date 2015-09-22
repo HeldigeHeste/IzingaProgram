@@ -16,3 +16,9 @@ C:\Users\Dunark\Desktop\Dropbox\Projects\Izinga_Play\Izinga Playground\obj\Debug
 C:\Users\Dunark\Desktop\Dropbox\Projects\Izinga_Play\Izinga Playground\bin\Debug\Izinga Playground.exe
 C:\Users\Dunark\Desktop\Dropbox\Projects\Izinga_Play\Izinga Playground\bin\Debug\Izinga Playground.pdb
 C:\Users\Dunark\Desktop\Dropbox\Projects\Izinga_Play\Izinga Playground\obj\Debug\Izinga Playground.csprojResolveAssemblyReference.cache
+C:\Users\Dunark\Desktop\Dropbox\Projects\IzingaProgram\Izinga Playground\bin\Debug\Izinga Playground.exe.config
+C:\Users\Dunark\Desktop\Dropbox\Projects\IzingaProgram\Izinga Playground\obj\Debug\Izinga Playground.exe
+C:\Users\Dunark\Desktop\Dropbox\Projects\IzingaProgram\Izinga Playground\obj\Debug\Izinga Playground.pdb
+C:\Users\Dunark\Desktop\Dropbox\Projects\IzingaProgram\Izinga Playground\bin\Debug\Izinga Playground.exe
+C:\Users\Dunark\Desktop\Dropbox\Projects\IzingaProgram\Izinga Playground\bin\Debug\Izinga Playground.pdb
+C:\Users\Dunark\Desktop\Dropbox\Projects\IzingaProgram\Izinga Playground\obj\Debug\Izinga Playground.csprojResolveAssemblyReference.cache
